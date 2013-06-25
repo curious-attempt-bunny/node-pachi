@@ -8,7 +8,7 @@ module.exports = function(options) {
 
   gtp.stdout.on('data', function (data) {
     if (debug) {
-      console.log(data);
+      console.log(data.toString());
     }
     var response = /= ((?:.|\n)*)/g.exec(data);
     if (callback && response) {
