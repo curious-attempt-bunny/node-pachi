@@ -1,0 +1,29 @@
+{
+  "name": "pachi",
+  "description": "A nodejs Go Text Protocol wrapper for the pachi Go engine",
+  "version": "0.0.1",
+  "repository": {
+    "url": "git://github.com/curious-attempt-bunny/pachi.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "install": "cd pachi-805abb4 && make",
+    "postinstall": "echo 'version' | pachi-805abb4/pachi",
+    "test": "tap test/*.js"
+  },
+  "repository": "git@github.com:curious-attempt-bunny/node-pachi.git",
+  "keywords": [
+    "go",
+    "engine",
+    "gtp",
+    "pachi",
+    "baduk",
+    "weiqi"
+  ],
+  "devDependencies": {
+    "tap": "~0.4.3",
+    "tape": "~1.0.2"
+  },
+  "author": "Merlyn Albery-Speyer <curious.attempt.bunny@gmail.com> (curiousattemptbunny.com)",
+  "license": "LGPL"
+}

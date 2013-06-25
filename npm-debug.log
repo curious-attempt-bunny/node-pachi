@@ -1,0 +1,50 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.10.2/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.2.15
+3 info using node@v0.10.2
+4 verbose read json /Users/merlyn/fun/node-pachi/package.json
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/Users/merlyn/fun/node-pachi', [ 'tap', 'tape' ] ]
+7 verbose from cache /Users/merlyn/fun/node-pachi/package.json
+8 info preinstall pachi@0.0.1
+9 verbose read json /Users/merlyn/fun/node-pachi/node_modules/tap/package.json
+10 verbose read json /Users/merlyn/fun/node-pachi/node_modules/tape/package.json
+11 verbose from cache /Users/merlyn/fun/node-pachi/package.json
+12 verbose readDependencies using package.json deps
+13 verbose from cache /Users/merlyn/fun/node-pachi/node_modules/tap/package.json
+14 verbose from cache /Users/merlyn/fun/node-pachi/node_modules/tape/package.json
+15 verbose already installed skipping tap@~0.4.3 /Users/merlyn/fun/node-pachi
+16 verbose already installed skipping tape@~1.0.2 /Users/merlyn/fun/node-pachi
+17 silly resolved []
+18 info build /Users/merlyn/fun/node-pachi
+19 verbose from cache /Users/merlyn/fun/node-pachi/package.json
+20 verbose linkStuff [ false, false, false, '/Users/merlyn/fun' ]
+21 info linkStuff pachi@0.0.1
+22 verbose linkBins pachi@0.0.1
+23 verbose linkMans pachi@0.0.1
+24 verbose rebuildBundles pachi@0.0.1
+25 verbose rebuildBundles [ '.bin', 'tap', 'tape' ]
+26 info install pachi@0.0.1
+27 verbose unsafe-perm in lifecycle true
+28 silly exec sh "-c" "cd pachi-805abb4 && make"
+29 silly sh,-c,cd pachi-805abb4 && make,/Users/merlyn/fun/node-pachi spawning
+30 info pachi@0.0.1 Failed to exec install script
+31 error pachi@0.0.1 install: `cd pachi-805abb4 && make`
+31 error `sh "-c" "cd pachi-805abb4 && make"` failed with 2
+32 error Failed at the pachi@0.0.1 install script.
+32 error This is most likely a problem with the pachi package,
+32 error not with npm itself.
+32 error Tell the author that this fails on your system:
+32 error     cd pachi-805abb4 && make
+32 error You can get their info via:
+32 error     npm owner ls pachi
+32 error There is likely additional logging output above.
+33 error System Darwin 11.4.2
+34 error command "/usr/local/Cellar/node/0.10.2/bin/node" "/usr/local/bin/npm" "install"
+35 error cwd /Users/merlyn/fun/node-pachi
+36 error node -v v0.10.2
+37 error npm -v 1.2.15
+38 error code ELIFECYCLE
+39 verbose exit [ 1, true ]
