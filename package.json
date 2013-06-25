@@ -7,7 +7,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "install": "cd pachi-805abb4 && make",
+    "install": "cd pachi-805abb4 && make MAC=1",
     "postinstall": "echo 'version' | pachi-805abb4/pachi",
     "test": "tap test/*.js"
   },
