@@ -1,7 +1,7 @@
 {
   "name": "pachi",
   "description": "A nodejs Go Text Protocol wrapper for the pachi Go engine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "url": "git://github.com/curious-attempt-bunny/pachi.git"
   },
