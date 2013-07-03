@@ -7,7 +7,7 @@ test('responds to version', function(t) {
     gtp.exit();
     t.notOk(error);
     t.ok(response);
-    t.equal(response, "1.1.SVN");
+    t.equal(response.split(' ')[0], "10.99");
     t.end();
   });
 });
@@ -18,8 +18,8 @@ test('lists commands', function(t) {
     gtp.exit();
     t.notOk(error);
     t.ok(response);
-    t.notEqual(response.indexOf("all_legal"), -1);
-    t.notEqual(response.indexOf("version"), -1);
+    t.notEqual(response.indexOf("kgs-time_settings"), -1);
+    t.notEqual(response.indexOf("echo"), -1);
     t.end();
   });
 });
